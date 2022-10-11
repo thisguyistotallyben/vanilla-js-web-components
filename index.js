@@ -2,6 +2,6 @@
 
 // window.customElements.define('app-thing', Thing);
 
-import loadHTML from "./utils/loadHtml";
+import loadHTML from "./utils/loadHtml.js";
 
 loadHTML();
