@@ -1,4 +1,4 @@
-import Thing from "./components/thing.js";
+import Thing from "./components/thing/thing.js";
 
 window.customElements.define('app-thing', Thing);
 
