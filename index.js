@@ -1,3 +1,3 @@
-import Thing from "./components/thing";
+import Thing from "./components/thing.js";
 
 const thing = new Thing();
