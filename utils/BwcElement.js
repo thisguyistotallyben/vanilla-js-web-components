@@ -6,8 +6,6 @@ export default class BwcElement extends HTMLElement {
         console.log('super dee duper');
         super();
         this.attachShadow({ mode: 'open'});
-        this.shadowRoot.innerHTML = `
-        HONK HONK
-      `;
+        this.shadowRoot.appendChild(this.template);
     }
 }
