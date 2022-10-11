@@ -1,8 +1,8 @@
-// import Thing from "./components/thing.js";
+import Thing from "./components/thing.js";
 
-// window.customElements.define('app-thing', Thing);
+window.customElements.define('app-thing', Thing);
 
-import loadHTML from "./utils/loadHtml.js";
+// import loadHTML from "./utils/loadHtml.js";
 
-const template = await loadHTML('./index.html', import.meta.url);
-console.log('thing?', template);
+// const template = await loadHTML('./index.html', import.meta.url);
+// console.log('thing?', template);
