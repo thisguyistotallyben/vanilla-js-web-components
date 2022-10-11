@@ -1,3 +1,3 @@
 import Thing from "./components/thing.js";
 
-const thing = new Thing();
+window.customElements.define('app-thing', Thing);
